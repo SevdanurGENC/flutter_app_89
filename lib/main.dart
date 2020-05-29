@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Merhaba',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -53,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
           
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'Butona tiklama sayiniz :',
+            Text( 
+              'MERHABA DUNYA \nButona tiklama sayiniz :',
             ),
             Text(
               '$_counter',
